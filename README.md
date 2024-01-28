@@ -1,6 +1,6 @@
 # misaka-watchOS  
 
-# ??? - watchOS 9.2 
+# ??? - watchOS 9.1
 
 
 You need to use xcode to install it.
