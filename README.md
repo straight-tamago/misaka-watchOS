@@ -1,7 +1,7 @@
 # misaka-watchOS  
 
-# ??? - watchOS 9.1
+## SupportOS: watchOS ?? - 9.1
 
+You can change the English font to your favorite one.
 
-You need to use xcode to install it.
-If you want to use your own font, please replace font.ttf
+You need to install it using xcode.
