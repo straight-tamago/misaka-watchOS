@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0067ED472B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED462B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c */; };
+		0067ED482B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED462B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c */; };
+		0067ED4D2B66AD8800AC5E36 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED492B66AD8800AC5E36 /* helpers.m */; };
+		0067ED4E2B66AD8800AC5E36 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED492B66AD8800AC5E36 /* helpers.m */; };
+		0067ED4F2B66AD8800AC5E36 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED4C2B66AD8800AC5E36 /* grant_full_disk_access.m */; };
+		0067ED502B66AD8800AC5E36 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED4C2B66AD8800AC5E36 /* grant_full_disk_access.m */; };
 		3D2A92992B54AE2B00E72B70 /* misakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A92982B54AE2B00E72B70 /* misakaApp.swift */; };
 		3D2A929B2B54AE2B00E72B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A929A2B54AE2B00E72B70 /* ContentView.swift */; };
 		3D2A929D2B54AE3000E72B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A929C2B54AE3000E72B70 /* Assets.xcassets */; };
@@ -44,6 +50,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0067ED452B66AD6B00AC5E36 /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
+		0067ED462B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
+		0067ED492B66AD8800AC5E36 /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		0067ED4A2B66AD8800AC5E36 /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grant_full_disk_access.h; sourceTree = "<group>"; };
+		0067ED4B2B66AD8800AC5E36 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		0067ED4C2B66AD8800AC5E36 /* grant_full_disk_access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grant_full_disk_access.m; sourceTree = "<group>"; };
 		3D2A92952B54AE2B00E72B70 /* misaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = misaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2A92982B54AE2B00E72B70 /* misakaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misakaApp.swift; sourceTree = "<group>"; };
 		3D2A929A2B54AE2B00E72B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +136,12 @@
 				3D2A92AE2B54AE3100E72B70 /* Assets.xcassets */,
 				3D2A92B02B54AE3100E72B70 /* Preview Content */,
 				3D5566212B54BD8A0006F0BB /* misaka Watch App-Bridging-Header.h */,
+				0067ED452B66AD6B00AC5E36 /* vm_unaligned_copy_switch_race.h */,
+				0067ED462B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c */,
+				0067ED4A2B66AD8800AC5E36 /* grant_full_disk_access.h */,
+				0067ED4C2B66AD8800AC5E36 /* grant_full_disk_access.m */,
+				0067ED4B2B66AD8800AC5E36 /* helpers.h */,
+				0067ED492B66AD8800AC5E36 /* helpers.m */,
 			);
 			path = "misaka Watch App";
 			sourceTree = "<group>";
@@ -189,6 +207,7 @@
 				TargetAttributes = {
 					3D2A92942B54AE2B00E72B70 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1520;
 					};
 					3D2A92A42B54AE3000E72B70 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -246,6 +265,9 @@
 			files = (
 				3D2A929B2B54AE2B00E72B70 /* ContentView.swift in Sources */,
 				3D2A92992B54AE2B00E72B70 /* misakaApp.swift in Sources */,
+				0067ED4F2B66AD8800AC5E36 /* grant_full_disk_access.m in Sources */,
+				0067ED472B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c in Sources */,
+				0067ED4D2B66AD8800AC5E36 /* helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +277,9 @@
 			files = (
 				3D2A92AD2B54AE3000E72B70 /* ContentView.swift in Sources */,
 				3D2A92AB2B54AE3000E72B70 /* misakaApp.swift in Sources */,
+				0067ED502B66AD8800AC5E36 /* grant_full_disk_access.m in Sources */,
+				0067ED482B66AD7700AC5E36 /* vm_unaligned_copy_switch_race.c in Sources */,
+				0067ED4E2B66AD8800AC5E36 /* helpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misaka Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				DEVELOPMENT_TEAM = 76QDYF5NP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "misaka-Watch-App-Info.plist";
@@ -406,13 +431,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.kk.misaka;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp.34306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -434,7 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misaka Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				DEVELOPMENT_TEAM = 76QDYF5NP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "misaka-Watch-App-Info.plist";
@@ -448,13 +473,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.kk.misaka;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp.34306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -473,10 +498,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misaka/Preview Content\"";
-				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				DEVELOPMENT_TEAM = 76QDYF5NP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = misaka;
@@ -493,10 +519,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.34306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -508,10 +535,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"misaka/Preview Content\"";
-				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				DEVELOPMENT_TEAM = 76QDYF5NP6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = misaka;
@@ -528,7 +556,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.34306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
