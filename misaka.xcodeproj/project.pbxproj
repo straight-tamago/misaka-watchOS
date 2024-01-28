@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2A92992B54AE2B00E72B70 /* misakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A92982B54AE2B00E72B70 /* misakaApp.swift */; };
+		3D2A929B2B54AE2B00E72B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A929A2B54AE2B00E72B70 /* ContentView.swift */; };
+		3D2A929D2B54AE3000E72B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A929C2B54AE3000E72B70 /* Assets.xcassets */; };
+		3D2A92A02B54AE3000E72B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A929F2B54AE3000E72B70 /* Preview Assets.xcassets */; };
+		3D2A92A62B54AE3000E72B70 /* misaka Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D2A92A52B54AE3000E72B70 /* misaka Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D2A92AB2B54AE3000E72B70 /* misakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A92AA2B54AE3000E72B70 /* misakaApp.swift */; };
+		3D2A92AD2B54AE3000E72B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A92AC2B54AE3000E72B70 /* ContentView.swift */; };
+		3D2A92AF2B54AE3100E72B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A92AE2B54AE3100E72B70 /* Assets.xcassets */; };
+		3D2A92B22B54AE3100E72B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A92B12B54AE3100E72B70 /* Preview Assets.xcassets */; };
+		3DD61B532B66A24D007DCAAC /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD61B522B66A24C007DCAAC /* font.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2A92A72B54AE3000E72B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2A928D2B54AE2B00E72B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D2A92A42B54AE3000E72B70;
+			remoteInfo = "misaka Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D2A92B82B54AE3100E72B70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3D2A92A62B54AE3000E72B70 /* misaka Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D2A92952B54AE2B00E72B70 /* misaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = misaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2A92982B54AE2B00E72B70 /* misakaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misakaApp.swift; sourceTree = "<group>"; };
+		3D2A929A2B54AE2B00E72B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D2A929C2B54AE3000E72B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D2A929F2B54AE3000E72B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D2A92A52B54AE3000E72B70 /* misaka Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "misaka Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2A92AA2B54AE3000E72B70 /* misakaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = misakaApp.swift; sourceTree = "<group>"; };
+		3D2A92AC2B54AE3000E72B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D2A92AE2B54AE3100E72B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D2A92B12B54AE3100E72B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5566212B54BD8A0006F0BB /* misaka Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "misaka Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D5566292B54CD340006F0BB /* misaka-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "misaka-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3DD61B522B66A24C007DCAAC /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2A92922B54AE2B00E72B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A92A22B54AE3000E72B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2A928C2B54AE2B00E72B70 = {
+			isa = PBXGroup;
+			children = (
+				3D2A92972B54AE2B00E72B70 /* misaka */,
+				3D2A92A92B54AE3000E72B70 /* misaka Watch App */,
+				3D2A92962B54AE2B00E72B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2A92962B54AE2B00E72B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A92952B54AE2B00E72B70 /* misaka.app */,
+				3D2A92A52B54AE3000E72B70 /* misaka Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2A92972B54AE2B00E72B70 /* misaka */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A92982B54AE2B00E72B70 /* misakaApp.swift */,
+				3D2A929A2B54AE2B00E72B70 /* ContentView.swift */,
+				3D2A929C2B54AE3000E72B70 /* Assets.xcassets */,
+				3D2A929E2B54AE3000E72B70 /* Preview Content */,
+			);
+			path = misaka;
+			sourceTree = "<group>";
+		};
+		3D2A929E2B54AE3000E72B70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A929F2B54AE3000E72B70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D2A92A92B54AE3000E72B70 /* misaka Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3D5566292B54CD340006F0BB /* misaka-Watch-App-Info.plist */,
+				3DD61B522B66A24C007DCAAC /* font.ttf */,
+				3D2A92AA2B54AE3000E72B70 /* misakaApp.swift */,
+				3D2A92AC2B54AE3000E72B70 /* ContentView.swift */,
+				3D2A92AE2B54AE3100E72B70 /* Assets.xcassets */,
+				3D2A92B02B54AE3100E72B70 /* Preview Content */,
+				3D5566212B54BD8A0006F0BB /* misaka Watch App-Bridging-Header.h */,
+			);
+			path = "misaka Watch App";
+			sourceTree = "<group>";
+		};
+		3D2A92B02B54AE3100E72B70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A92B12B54AE3100E72B70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2A92942B54AE2B00E72B70 /* misaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2A92B92B54AE3100E72B70 /* Build configuration list for PBXNativeTarget "misaka" */;
+			buildPhases = (
+				3D2A92912B54AE2B00E72B70 /* Sources */,
+				3D2A92922B54AE2B00E72B70 /* Frameworks */,
+				3D2A92932B54AE2B00E72B70 /* Resources */,
+				3D2A92B82B54AE3100E72B70 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2A92A82B54AE3000E72B70 /* PBXTargetDependency */,
+			);
+			name = misaka;
+			productName = misaka;
+			productReference = 3D2A92952B54AE2B00E72B70 /* misaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D2A92A42B54AE3000E72B70 /* misaka Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2A92B52B54AE3100E72B70 /* Build configuration list for PBXNativeTarget "misaka Watch App" */;
+			buildPhases = (
+				3D2A92A12B54AE3000E72B70 /* Sources */,
+				3D2A92A22B54AE3000E72B70 /* Frameworks */,
+				3D2A92A32B54AE3000E72B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "misaka Watch App";
+			packageProductDependencies = (
+			);
+			productName = "misaka Watch App";
+			productReference = 3D2A92A52B54AE3000E72B70 /* misaka Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2A928D2B54AE2B00E72B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3D2A92942B54AE2B00E72B70 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3D2A92A42B54AE3000E72B70 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 3D2A92902B54AE2B00E72B70 /* Build configuration list for PBXProject "misaka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2A928C2B54AE2B00E72B70;
+			packageReferences = (
+			);
+			productRefGroup = 3D2A92962B54AE2B00E72B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2A92942B54AE2B00E72B70 /* misaka */,
+				3D2A92A42B54AE3000E72B70 /* misaka Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2A92932B54AE2B00E72B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A92A02B54AE3000E72B70 /* Preview Assets.xcassets in Resources */,
+				3D2A929D2B54AE3000E72B70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A92A32B54AE3000E72B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A92B22B54AE3100E72B70 /* Preview Assets.xcassets in Resources */,
+				3D2A92AF2B54AE3100E72B70 /* Assets.xcassets in Resources */,
+				3DD61B532B66A24D007DCAAC /* font.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2A92912B54AE2B00E72B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A929B2B54AE2B00E72B70 /* ContentView.swift in Sources */,
+				3D2A92992B54AE2B00E72B70 /* misakaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A92A12B54AE3000E72B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A92AD2B54AE3000E72B70 /* ContentView.swift in Sources */,
+				3D2A92AB2B54AE3000E72B70 /* misakaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2A92A82B54AE3000E72B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D2A92A42B54AE3000E72B70 /* misaka Watch App */;
+			targetProxy = 3D2A92A72B54AE3000E72B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D2A92B32B54AE3100E72B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D2A92B42B54AE3100E72B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3D2A92B62B54AE3100E72B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"misaka Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "misaka-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = misaka;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = ...;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = ...;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.kk.misaka;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "misaka Watch App/misaka Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3D2A92B72B54AE3100E72B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"misaka Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "misaka-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = misaka;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = ...;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = ...;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.k.kk.misaka;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "misaka Watch App/misaka Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3D2A92BA2B54AE3100E72B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"misaka/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = misaka;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = ...;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D2A92BB2B54AE3100E72B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"misaka/Preview Content\"";
+				DEVELOPMENT_TEAM = WQL5MJWHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = misaka;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = ...;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.kk.misaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2A92902B54AE2B00E72B70 /* Build configuration list for PBXProject "misaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A92B32B54AE3100E72B70 /* Debug */,
+				3D2A92B42B54AE3100E72B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2A92B52B54AE3100E72B70 /* Build configuration list for PBXNativeTarget "misaka Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A92B62B54AE3100E72B70 /* Debug */,
+				3D2A92B72B54AE3100E72B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2A92B92B54AE3100E72B70 /* Build configuration list for PBXNativeTarget "misaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A92BA2B54AE3100E72B70 /* Debug */,
+				3D2A92BB2B54AE3100E72B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2A928D2B54AE2B00E72B70 /* Project object */;
+}
